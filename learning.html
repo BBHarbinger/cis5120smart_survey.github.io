@@ -118,7 +118,8 @@
 						</p>
 					</article>
 
-					<hr>
+					<br>
+					<br>
 
 					<article id="main" class="container special">
 
@@ -171,7 +172,8 @@
 						</p>
 						<p>
 							We improved the questions and set up guidelines. Add a skip for interviewee, add the updated mark/icon, add a review page.
-
+						</p>
+						<br>
 					</article>
 
 				
@@ -192,7 +194,8 @@
 						</div>
 					</section>	
 					
-					<hr>
+					<br> 
+					<br>
 
 					<article id="main" class="container special">
 						<!-- Hi-Fi Prototyping -->
@@ -201,7 +204,7 @@
 						<p>
 							Our high-fidelity Figma prototype includes two interfaces: the interviewer interface emphasizes ease of use for setting up, deploying, and analyzing survey data; the interviewee interface offers an intuitive, engaging survey process, designed to promote thoughtful and informative responses.  With these separate yet integrated sections, our prototype seeks to elevate the entire survey experience.
 						</p>
-
+						<br>
 					</article>
 
 					<section class="carousel">
@@ -243,7 +246,8 @@
 						</div>
 					</section>
 
-					<hr>
+					<br> 
+					<br>
 
 					<article id="main" class="container special">
 						<!-- Heuristic Evaluation -->
@@ -271,7 +275,8 @@
 							<strong>Help and documentation:</strong>  The question guideline should have some hint or explanation for different setting buttons.						
 						</p>
 
-						<hr>
+						<br> 
+						<br>
 
 						<!-- Revision Plan -->
 						<h3><strong>Revision Plan</strong></h3>
@@ -296,9 +301,11 @@
 						<p class="with-dot">
 							<strong>Error Handling:</strong>  Craft clear and instructive error messages to guide users towards correct input.
 						</p>
+						<br>
 						<p>
 							To enhance the interview process, we added a progress bar and a skip question feature, allowing candidates to have a better understanding of their progress and exert greater control over their interview experience.					
 						</p>
+						<br>
 
 					</article>
 
@@ -314,7 +321,8 @@
 						</div>
 					</section>
 
-					<hr>
+					<br> 
+					<br>
 
 					<article id="main" class="container special">
 						<!-- Reflection -->
@@ -331,11 +339,72 @@
 						</p>
 					</article>
 
-					<hr>
+					<br> 
+					<br>
 
+					<!-- Interactive Prototype -->
 					<article id="main" class="container special">
-						<!-- Interactive Prototype -->
+
 						<h3><strong>3.Interactive Prototype</strong></h3>
+						<p>
+							Our interactive prototype harnesses the power of AI and a suite of carefully selected technologies to deliver a revolutionary surveying experience. At its core, we've integrated ChatGPT, enabling dynamic question adaptation based on user input. This intelligent tailoring is coupled with real-time response analysis, extracting insights for researchers. To ensure a seamless user experience, we built a responsive UI using React.  Flask powers our server-side logic, handling data flow and communication with the language model.  We carefully fine-tuned the large language model (LLM) to optimize the quality and relevance of both generated questions and interpretive analysis.  Additionally, custom-designed APIs facilitate efficient processing and integration of the rich data flowing from the LLM.
+						</p>
+						<br>
+
+						<h3>User Evaluation</h3>
+						<p>
+							We conducted an evaluation with two individuals experienced in taking surveys and with a keen interest in technology.  Their backgrounds made them ideal for assessing both the usability and the novel AI features of our smart survey.
+						</p>
+						<br>
+
+						<h3>Key Findings</h3>
+						<p>
+							Participants responded positively to the dynamic questioning, finding it engaging. However,  feedback indicated areas for improvement:
+						</p>
+						<p>
+							Sentiment Analysis: Results need enhanced clarity, with explanations or visual indicators to avoid user confusion.
+						</p>
+						<p>
+							Open-Ended Feedback:The interface for collecting open-ended feedback should be redesigned for greater ease of use and intuitiveness.
+						</p>
+						<br>
+
+						<h3>Lessons Learned</h3>
+						<p>
+							Lesson 1: Clearer sentiment analysis feedback is essential for a positive user experience.
+						</p>
+						<p>
+							Lesson 2:An intuitive interface for open-ended feedback collection boosts engagement and usability.
+						</p>
+						<br>
+
+						<h3>Risk</h3>
+						<p>
+							Technical Challenge: We recognize the potential challenge in fine-tuning the Large Language Model to consistently generate the quality of answers we desire.
+						</p>
+						<br>
+
+						<h3>Opportunities for Improvement</h3>
+						<p>
+							To address these findings, we'll focus on the following:
+						</p>
+						<p>
+							1. Sentiment Analysis Clarity: Improve result presentation for both ease of understanding and actionability.
+						</p>
+						<p>
+							2. Open-Ended Feedback Interface: Create a more streamlined experience for users to provide qualitative input.
+						</p>
+						<p>
+							3. Simplified Interface and Workflow: Focus on the core researcher and interviewee screens. Define clear workflows for each user type, spotlighting AI interactions.
+						</p>
+						<br>
+						<br>
+					</article>
+
+					<!-- Final Evaluation-->
+					<article id="main" class="container special">
+						
+						<h3><strong>4. Final Evaluation</strong></h3>
 
 						<p>
 							Feedback revealed the interface's overall ease of use but also pinpointed opportunities to enhance the questionnaire's interactivity and clarity. We'll incorporate tooltips or modals to  explain question purposes and the impact of skipping, empowering users with informed decision-making. Additionally, we'll refine the questionnaire's feedback mechanisms to provide greater acknowledgment of user input and progress, boosting engagement.  It's clear from the tests that we need improved prompts, documentation, and perhaps tutorials to clarify LLM concepts and how they differ from traditional survey systems. Potentially showcasing output early in the process could further clarify the system's value.  Long-term, we see immense potential in leveraging LLM to further assist users in question design and analysis.
@@ -346,11 +415,98 @@
 						<p>
 							These insightful user responses drive our next steps, ensuring that the survey system is not just intuitive but truly empowers both interviewers and interviewees throughout the process.
 						</p>
+						<br>
+
+
+						<h3>Design Question</h3>
+						<p>
+							We sought to understand how we can maintain UI simplicity while enhancing user interaction, with a specific focus on the potential impact of a character/bot within the interviewee experience.
+						</p>
+						<br>
+
+
+						<h3>Study Plan</h3>
+						<p>
+							Design Question: Does the presence of a character positively impact the interviewee experience?
+						</p>
+						<br>
+
+
+						<h3>Independent Variable:</h3>
+						<p>
+							Version A: Interviewee interface includes character/bot with interaction elements.
+						</p>
+						<p>
+							Version B: Interviewee interface has a standard chat box without a character.
+						</p>
+						<br>
+
+						<h3>Feedback & Analysis</h3>
+						<p>
+							1. Correlation: Moderate positive correlation exists between noticing the character and less reported feeling of overwhelm. This suggests the character might play a role in calming users.
+						</p>
+						<p>
+							2. No Significant Impact: No statistically significant correlation between character interaction and positive sentiment scores. Further investigation is needed to determine if a causal relationship exists.
+						</p>
+						<p>
+							3. Design Insights: Users often notice the character, but color recognition and interaction rates need improvement. Sentiment is somewhat positive (especially regarding overwhelm), but the character can cause distraction and confusion.
+						</p>
+						<br>
+
+
+						<h3>Conclusions & Next Steps</h3>
+						<p>
+							To improve the design, we focused on:
+						</p>
+						<p>
+							1. Visual Prominence: Increase the character's visibility for better color recognition.
+						</p>
+						<p>
+							2. Intuitive Interaction: Implement interaction mechanisms that directly promote positive feelings.
+						</p>
+						<p>
+							3. Minimizing Distraction: Reduce any distraction or confusion caused by the character, while maintaining its ability to ease potential anxiety.
+						</p>
+
+						<br>
+						<section id="features" class="container special">
+							<div class="row">
+								<article class="col-4 col-12-mobile special">
+									<a class="image featured"><img src="images/version1.gif" alt="" /></a>
+									<header>
+										<h3><a>Version 1</a></h3>
+									</header>
+								</article>
+								<article class="col-4 col-12-mobile special">
+									<a class="image featured"><img src="images/version2.gif" alt="" /></a>
+									<header>
+										<h3><a>Version 2</a></h3>
+									</header>
+								</article>
+							</div>
+						</section>
+
+
 					</article>
 
+					<hr>
+
+					<!-- Conclusion -->
+					<header>
+						<h2> Conclusion</h2>
+					</header>
+
+					<article id="main" class="container special">
+
+						<p>
+							Throughout this project, we developed an AI-powered survey system that breaks the constraints of traditional platforms. From our initial concept, iterative prototypes, rigorous user testing, and a final statistical evaluation, we've uncovered valuable lessons and opportunities. The dynamic questioning powered by our fine-tuned language model proved highly engaging for interviewees. Our results demonstrated the potential of a character/bot to reduce user anxiety during the interview process. Moving forward, we'll prioritize enhancing the character's visual prominence, creating intuitive and meaningful interactions, and striking the delicate balance between assistance and distraction. Ultimately, this project showcases the power of AI in revolutionizing user research methodologies, and we're excited to continue refining our solution to deliver truly user-centric and insightful survey experiences.
+						</p>
+					</article>
+
+					
 				</div>
 
-			<!-- Carousel -->
+			
 			
 			
 			<!-- Footer -->
