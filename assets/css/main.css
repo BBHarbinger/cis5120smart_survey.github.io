@@ -2462,14 +2462,25 @@ input, select, textarea {
 
 	#main {
 		margin-bottom: 0;
+
 	}
 
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
-		#main p {
-			font-size: 1.25em; /* Adjust the size as desired */
-		} 
+
+		#main.container {  
+			display: flex;
+			flex-direction: column; 
+			align-items: left;    
+			justify-content: center; 
+      
+			text-align: center;     
+		
+			max-width: 650px; /* Example width */
+			margin: 0 auto; 
+		}
+		
 
 /* Footer */
 
